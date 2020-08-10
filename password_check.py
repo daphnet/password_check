@@ -8,5 +8,4 @@ while i > 0:
         break #exit loop
     else:
         i = i - 1
-        print ('Wrong password, you can try', i, "times." )
-        
+        print ('Wrong password, you can try', i, 'times.') 
