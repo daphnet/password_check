@@ -1,12 +1,12 @@
-correct_password = 'a123456'
+password = 'a123456'
 
-x = 3
-while x <= 3 and x > 0:
-    password = input ('Please enter your password: ')
-    if password == correct_password:
+i = 3 #remaing tries
+while i <= 3 and i > 0:
+    pwd = input ('Please enter your password: ')
+    if pwd == password:
         print ('Login Successfully')
-        break
+        break #exit loop
     else:
-        x = x - 1
-        print ('Wrong password, you can try', x, "times." )
+        i = i - 1
+        print ('Wrong password, you can try', i, "times." )
         
